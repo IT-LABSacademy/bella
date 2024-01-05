@@ -25,6 +25,38 @@ button {
   margin: 0 auto;
 }
 
+.text {
+  width: 586px;
+}
+
+.text .uptitle {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+}
+
+.text .text-title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+  margin: 17px 0;
+}
+
+.text .subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
 /* Header */
 /* .header {} */
 
@@ -123,4 +155,59 @@ button {
 .hero .container .btns .btn:hover {
   background: #FA4A0C;
   border-color: transparent;
+}
+
+/* Image */
+.image .container {
+  text-align: center;
+}
+
+.image .container img {
+  position: relative;
+  top: -100px;
+}
+
+.image .container .line {
+  width: 884px;
+  height: 3px;
+  background: #e4e4e4;
+  margin: 0 auto;
+}
+
+/* App */
+.app {
+  padding: 70px 0;
+}
+
+.app .container .title {
+  font-size: 44px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.app .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0;
+}
+
+.app .container .content img {
+  box-shadow: 50px 30px 150px 0px #2E040426;
+  border-radius: 50px;
+}
+
+/* Food */
+.food {
+  padding: 50px 0;
+}
+
+.food .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
